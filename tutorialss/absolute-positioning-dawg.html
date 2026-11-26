@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    .daddy {
+        position: relative;
+    }
+
+    .my-child1 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .my-child2 {
+        position: absolute;
+        left: 180px;
+        top: 37px;
+    }
+
+    .my-child3 {
+        position: absolute;
+        left: 0px;
+        top: 263px;
+    }
+
+    .my-child4 {
+        position: absolute;
+        left: 180px;
+        top: 263px;
+    }
+
+    .float-left {
+        float: left;
+    }
+
+</style>
+
+<!--Aqui embaixo é absolute com a página toda sendo o relative-->
+
+<!--
+<body class="daddy">
+    <div class="my-child1">
+        <img src="about-me/eu1.jpg" height="auto" width="170px">
+    </div>
+    <div class="my-child2">
+        <img src="about-me/eu2.jpg" height="auto" width="200px">
+    </div>
+    <div class="my-child3">
+        <img src="about-me/pato-do-mato1.jpg" height="auto" width="170px">
+    </div>
+    <div class="my-child4">
+        <img src="about-me/pato-do-mato2.jpg" height="auto" width="200px">
+    </div>
+</body>
+-->
+
+
+<!--Aqui embaixo é float left (do tipo, deixa o próximo amigo encostar ao lado direito)
+MENTIRA. Na verdade é sem float pois não precisa pra imagem, só pra divs com tamanho definido,
+pois eles entram no automatico na linha de baixo, não na direita-->
+
+<!--<body class="float-left">-->
+<img src="about-me/eu1.jpg" height="auto" width="170px">
+<img src="about-me/eu2.jpg" height="auto" width="200px">
+<br>
+<img src="about-me/pato-do-mato1.jpg" height="150px" width="auto">
+<img src="about-me/pato-do-mato2.jpg" height="150px" width="auto">
+</body>
+
+</html>

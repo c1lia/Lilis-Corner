@@ -1,0 +1,10 @@
+Usar variadas tags
+- main element for whats most important (organization)
+
+O que você procura, tá aqui ó
+pumpurum
+> + ~ e espaço ou a falta dele são combinators
+
+Dá pra deixar o page specific navigation bonitinho com o justificar do flexbox
+
+Se eu quiser posso escrever parágrafos com espaços e retornos específicos e adicionar o elemento <pre> ou pôr valor white-space: pre; na tag

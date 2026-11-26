@@ -1,0 +1,260 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color:yellow;
+        }
+        .the-great-divide {
+            display: flex;
+        }
+
+        .rounded-box-hidden {
+            background-color: azure;
+            border: 2px solid purple;
+            padding: 10px;
+            border-radius: 20px;
+
+            >p {
+                /*That damn margin is set to some amount already, putting space before and after paragraphs*/
+                margin: 0px;
+
+                >a {
+                    color: black;
+                }
+            }
+        }
+
+        /*this one makes it so that, the text stretches as long as it can, but the box doesn't go
+            through the whole page, just goes until where the content goes
+            the content don't wrap anymore though*/
+        .tight {
+            width: max-content;
+        }
+
+        /*what you do
+        oh, this one does wrap. Ignore that guy on top then, he's been dethroned*/
+        .fit-girlie {
+            width: fit-content;
+        }
+
+        /*this one is max content and puts the next chunk of content on the same line.
+        Ele prefere manter o tamanho máximo de cada, criando linhas novas pra isso,
+        e só cede pro wrap se não tiver espaço para um no máximo.
+        Se quiser que sempre mantenha tudo em uma linha, usando até wrap para isso, aí tu quer flex*/
+        .inline {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Poopy Playtime</h1>
+
+    <div class="the-great-divide">
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+    </div>
+    <div class="the-great-divide">
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+    </div>
+    <div class="the-great-divide">
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+    </div>
+    <div class="the-great-divide">
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+    </div>
+    <div class="the-great-divide">
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+        </div>
+    </div>
+
+    <div class="rounded-box-hidden">
+        <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+            please!</p>
+        <p>And we got to get ourselves, please... back to the garden.</p>
+        <div class="rounded-box-hidden">
+            <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                please!</p>
+            <p>And we got to get ourselves, please... back to the garden.</p>
+            <div class="rounded-box-hidden">
+                <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+                    please!</p>
+                <p>And we got to get ourselves, please... back to the garden.</p>
+            </div>
+        </div>
+    </div>
+    <div class="rounded-box-hidden tight">
+        <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+            please!</p>
+        <p>And we got to get ourselves, please... back to the garden.</p>
+    </div>
+
+    <div class="rounded-box-hidden fit-girlie">
+        <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+            please!</p>
+        <p>And we got to get ourselves, please... back to the garden.</p>
+    </div>
+
+    <div class="rounded-box-hidden inline">
+        <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+            please!</p>
+        <p>And we got to get ourselves, please... back to the garden.</p>
+    </div>
+    <div class="rounded-box-hidden inline">
+        <p>We are stardust, we are golden! Please click <a href="/images/random/jeff-the-killer.webp">me</a>,
+            please!</p>
+        <p>And we got to get ourselves, please... back to the garden.</p>
+    </div>
+
+</body>
+
+</html>
